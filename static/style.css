@@ -1,0 +1,43 @@
+body{
+    /* background-color:rgb( 23, 78, 100); */
+    /* color: beige; */
+    text-align: center;
+}
+
+
+a.editing:link, a.editing:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a.editing:hover, a.editing:active {
+    background-color: red;
+  }
+  a.deleting:link, a.deleting:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a.deleting:hover, a.deleting:active {
+    background-color: green;
+    color: white;}
+
+/* table, td{
+    border-collapse: collapse;
+    width: auto;    
+    border: 1px solid turquoise;
+    padding-left:120px;
+    }
+
+td {
+    text-align: center;
+   } */
